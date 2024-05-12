@@ -4,10 +4,10 @@ import mathutils
 from mathutils import Vector
 
 # Populate the values below by dragging from the scene tree into this window
-bottom_left = bpy.data.objects["Bottom Left"]
-bottom_right = bpy.data.objects["Bottom Right"]
-top_left = bpy.data.objects["Top Left"]
-top_right = bpy.data.objects["Top Right"]
+bottom_left = placeholder
+bottom_right = placeholder
+top_left = placeholder
+top_right = placeholder
 
 # Calculate the horizontal field of view to keep the camera appropriately 'zoomed'
 def horizontal_fov(camera_y, camera_z, sensor_width):
